@@ -2,7 +2,8 @@
 
 ## Overview
 
-> This project demonstrates how to design and interact with a structured database for storing credential data using SQL and SQLite.
+> A SQLite-based project that models how credential data can be structured, stored, and queried using SQL.
+> This project focuses on schema design, CSV data ingestion, and practical query workflows used to interact with stored data. 
 
 ## What I Built
 
