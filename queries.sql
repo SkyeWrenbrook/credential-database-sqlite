@@ -6,11 +6,11 @@ SELECT site, username FROM credentials;
 
 -- 3. Find credentials for a specific site
 SELECT * FROM credentials
-WHERE site = 'bright6.com';
+WHERE site = 'secure-example04.com';
 
--- 4. Find users with a specific pattern (e.g. usernames starting with 'jamie')
+-- 4. Find users with a specific pattern (e.g. usernames starting with 'user_4')
 SELECT * FROM credentials
-WHERE username LIKE 'jamie%';
+WHERE username LIKE 'user_4%';
 
 -- 5. Count how many credentials are stored
 SELECT COUNT(*) FROM credentials;
