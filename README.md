@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is part ofa  larger system exploring how credential data is stored, validated, and analyzed.
+This project is part of a larger system exploring how credential data is stored, validated, and analyzed.
 It focuses on the database layer, where structured credential data is imported into SQLite and queried using SQL.
 
 [Related application project](https://github.com/SkyeWrenbrook/credential-manager-cpp)
