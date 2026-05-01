@@ -53,7 +53,7 @@ These observations highlight how data handling and storage decisions directly im
    SELECT COUNT(*) FROM credentials;
 ```
 
-<img width="342" height="33" alt="csv-import-count-mismatch" src="https://github.com/user-attachments/assets/aaa6e768-f5f4-4a39-84a8-6489b5477d96" />
+<img width="354" height="126" alt="initial-import-count" src="https://github.com/user-attachments/assets/7c98c60f-1ff1-4664-9d3e-ff2dd357af7c" />
       The count returned 71, which was higher than expected.
       This indicated that the CSV header may have been imported as a row.
 
