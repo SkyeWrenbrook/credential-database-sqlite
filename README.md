@@ -10,7 +10,7 @@ It focuses on the database layer, where structured credential data is imported i
 ## System Flow
 User input → C++ Application → Structured Data → SQLite Database → SQL Queries → Analysis
 
-This project represents the storage and query layer of the system.
+This project represents the storage and query layer, where data is persisted and analyzed.
 
 ## Implementation
 
@@ -25,6 +25,8 @@ This project represents the storage and query layer of the system.
 - how data ingestion (CSV import) can introduce integrity issues
 - how SQL queries can be used to validate and analyze stored information
 - how improperly stored credentials create security risks
+
+These observations highlight how data handling and storage decisions directly impact system reliabilty and security.
 
 ## Project Structure
 
@@ -62,11 +64,11 @@ This project represents the storage and query layer of the system.
 ## Key Concepts Demonstrated
 
 * Table design and schema creation
-* Data import using .import
+* Data ingestion using `.import`
 * Querying with SELECT, WHERE, LIKE, and COUNT
 * Data validation and cleanup (identified and removed an unintended header row during import)
 
-## Notes
+## Security Note
 
 Credentials are stored in plaintext in this version.
 
