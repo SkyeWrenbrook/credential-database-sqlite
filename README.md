@@ -7,7 +7,7 @@ It focuses on the database layer, where structured credential data is imported i
 
 [Related application project](https://github.com/SkyeWrenbrook/credential-manager-cpp)
 
-## System flow
+## System Flow
 User input → C++ Application → Structured Data → SQLite Database → SQL Queries → Analysis
 
 This project represents the storage and query layer of the system.
